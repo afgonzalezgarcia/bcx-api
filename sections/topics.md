@@ -96,7 +96,7 @@ but those returned from `GET /projects/1/topics.json` will not.
 
 We will return 50 topics per page. If the result set has 50 topics, it's your
 responsibility to check the next page to see if there are any more topics --
-you do this by adding `&page=2` to the query, then `&page=3` and so on.
+you do this by adding `topics.json?page=2` to the query, then `topics.json?page=3` and so on.
 
 ### Sorting
 
